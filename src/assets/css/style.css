@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+body{
+    font-family: Roboto, 'Courier New', Courier, monospace;
+}
+.login{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 350px;
+}
+.login a{
+    display: block;
+}
+.login a{
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+.login a i{
+    margin-right: 20px;
+}
+
+.login a{
+    text-decoration: none;
+}
+.login a:hover {
+    font-weight: bolder;
+}
+.facebook{
+    background-color: #3b5898;
+}
+
+.twitter{
+    background-color: #4cbde6;
+}
+
+.google{
+    background-color: #dd4c39;
+}
