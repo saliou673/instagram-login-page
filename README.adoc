@@ -1,1 +1,8 @@
-= Instagram login page
+= Instagram login page with mitrhil js
+
+For test, run
+
+```
+npm install
+npm run dev
+```
