@@ -1,9 +1,14 @@
 'use strict'
 
-const m = require("mithril");
+import { HomeComponent } from "./components/home.component.js";
 import { LoginComponent } from "./components/login.component.js";
+const m = require("mithril");
+
 const root = document.querySelector('main');
-// m.mount(root, LoginComponent);
+
+//remove !# from URI
+// m.route.prefix = ""
 m.route(root, "/login", {
-    "/login": LoginComponent, // defines `https://localhost/#!/home`
+    "/home": HomeComponent,
+    "/login": LoginComponent
 })
